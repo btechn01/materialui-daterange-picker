@@ -10,7 +10,7 @@
 let ruleCounter = 0;
 
 // Adds a prefix to all generated class names, to avoid conflict with other Material UI instances.
-const prefix = 'materialui-daterange-picker';
+const prefix = "materialui-daterange-picker-ru";
 
 export default function generateClassName(rule: any, sheet: any) {
   ruleCounter += 1;
@@ -18,9 +18,9 @@ export default function generateClassName(rule: any, sheet: any) {
   if (ruleCounter > 1e10) {
     console.warn(
       [
-        'Material-UI: you might have a memory leak.',
-        'The ruleCounter is not supposed to grow that much.',
-      ].join(''),
+        "Material-UI: you might have a memory leak.",
+        "The ruleCounter is not supposed to grow that much.",
+      ].join("")
     );
   }
 

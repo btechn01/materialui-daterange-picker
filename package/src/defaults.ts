@@ -8,44 +8,44 @@ import {
   startOfMonth,
   endOfMonth,
   addMonths,
-} from 'date-fns';
+} from "date-fns";
 
 // eslint-disable-next-line no-unused-vars
-import { DefinedRange } from './types';
+import { DefinedRange } from "./types";
 
 const getDefaultRanges = (date: Date): DefinedRange[] => [
   {
-    label: 'Today',
+    label: "Cегодня",
     startDate: date,
     endDate: date,
   },
   {
-    label: 'Yesterday',
+    label: "вчера",
     startDate: addDays(date, -1),
     endDate: addDays(date, -1),
   },
   {
-    label: 'This Week',
+    label: "Эта неделя",
     startDate: startOfWeek(date),
     endDate: endOfWeek(date),
   },
   {
-    label: 'Last Week',
+    label: "прошлая неделя",
     startDate: startOfWeek(addWeeks(date, -1)),
     endDate: endOfWeek(addWeeks(date, -1)),
   },
   {
-    label: 'Last 7 Days',
+    label: "Последние 7 дней",
     startDate: addWeeks(date, -1),
     endDate: date,
   },
   {
-    label: 'This Month',
+    label: "Этот месяц",
     startDate: startOfMonth(date),
     endDate: endOfMonth(date),
   },
   {
-    label: 'Last Month',
+    label: "прошлый месяц",
     startDate: startOfMonth(addMonths(date, -1)),
     endDate: endOfMonth(addMonths(date, -1)),
   },
