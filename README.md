@@ -2,7 +2,7 @@
 
 A react date range picker implementation using @material-ui.
 
-<a href='https://www.npmjs.com/package/materialui-daterange-picker-ru'>
+<a href='https://www.npmjs.com/package/materialui-daterange-picker-russian'>
     <img src='https://img.shields.io/npm/v/materialui-daterange-picker.svg' alt='Latest npm version'>
 </a>
 
@@ -17,17 +17,20 @@ Check out the project running [here](https://codesandbox.io/s/materialui-dateran
 ## Usage
 
 ```bash
-npm install materialui-daterange-picker --save
+npm install materialui-daterange-picker-russian --save
 
 # or with yarn
-yarn add materialui-daterange-picker
+yarn add materialui-daterange-picker-russian
 ```
 
 ## Basic example
 
 ```tsx
 import React from "react";
-import { DateRangePicker, DateRange } from "materialui-daterange-picker";
+import {
+  DateRangePicker,
+  DateRange,
+} from "materialui-daterange-picker-russian";
 
 type Props = {};
 

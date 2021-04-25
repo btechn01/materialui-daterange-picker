@@ -20,7 +20,7 @@ const getDefaultRanges = (date: Date): DefinedRange[] => [
     endDate: date,
   },
   {
-    label: "вчера",
+    label: "Вчера",
     startDate: addDays(date, -1),
     endDate: addDays(date, -1),
   },
@@ -30,7 +30,7 @@ const getDefaultRanges = (date: Date): DefinedRange[] => [
     endDate: endOfWeek(date),
   },
   {
-    label: "прошлая неделя",
+    label: "Прошлая неделя",
     startDate: startOfWeek(addWeeks(date, -1)),
     endDate: endOfWeek(addWeeks(date, -1)),
   },
@@ -45,7 +45,7 @@ const getDefaultRanges = (date: Date): DefinedRange[] => [
     endDate: endOfMonth(date),
   },
   {
-    label: "прошлый месяц",
+    label: "Прошлый месяц",
     startDate: startOfMonth(addMonths(date, -1)),
     endDate: endOfMonth(addMonths(date, -1)),
   },

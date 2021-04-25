@@ -1,10 +1,10 @@
 {
-  "name": "materialui-daterange-picker-ru",
+  "name": "materialui-daterange-picker-russian",
   "version": "1.1.92",
   "description": "A react date range picker implementation using @material-ui.",
   "author": "Behnam Hesami",
   "license": "MIT",
-  "repository": "btechn01/materialui-daterange-picker-ru",
+  "repository": "btechn01/materialui-daterange-picker-russian",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
